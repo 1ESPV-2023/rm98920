@@ -6,12 +6,16 @@
     background-color: black;
     color: white;
     height: 20vh;
+    background-image: url("../img/banner-1440x300-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
  
 .container{
     display: flex;
     justify-content: center;
-    height: 60vh;
+    height: auto;
     width: 100%;
     color: white;
 }
@@ -19,17 +23,24 @@
 .banner-1{
     flex-grow: 1;
     background-color: red;
-
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    
 }
 
 .banner-2{
     flex-grow: 1;
     background-color: rgb(255, 1, 179);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+   
 
 }
 .conteudo{
     flex-grow: 5;
-    background-color: #0703fc;
+    background-color: black;
 }
 
 .rodape{
