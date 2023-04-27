@@ -39,7 +39,7 @@ function mudaBanner2() {
     
 
     const elImg = document.querySelector(".cabecalho > img");
-    elImg.src = banner1;
+    elImg.src = banner2;
     
     setTimeout(mudaBanner3, 2000);
 }
@@ -47,11 +47,11 @@ function mudaBanner2() {
 function mudaBanner3() {
     
     
-    let banner2 = "./img/banner-1440x300-2.jpg";
+    let banner2 = "./img/banner-1440x300-3.jpg";
     
 
     const elImg = document.querySelector(".cabecalho > img");
-    elImg.src = banner1;
+    elImg.src = banner3;
     
     setTimeout(mudaBanner1, 2000);
 }
