@@ -1,7 +1,8 @@
 //REcuperando o input após ele receber o focus
+const inputPass = document.querySelector('input[name="txtSenha"]');
 const inputUser = document.querySelector('input[type="text"]')
 const LUser = document.querySelector('label[for="idNm"]')
-
+const LabelPass = document.querySelector('label[for="idSenha"]')
 // inputUser.addEventListener('focus',()=>{
 //     inputUser.setAttribute("style",'outline-color:#ff0000;'); 
 // })
@@ -24,7 +25,6 @@ inputUser.addEventListener('keyup',()=>{
 const eyepass = document.querySelector('.fa-eye')
 
 eyepass.addEventListener('click',()=>{
-    const inputPass = document.querySelector('input[name="txtPass"]');
     if(inputPass.getAttribute("type") == "password"){
         inputPass.setAttribute("type","text");
 
