@@ -32,3 +32,47 @@ eyepass.addEventListener('click',()=>{
         inputPass.setAttribute("type","password");
     }
 })
+let usuario1 = {
+    nomeCompleto : "José das Couves",
+    nomeUsuario : "jose",
+    senhaUsuario: "123456"
+}
+
+let usuario2 = {
+    nomeCompleto : "Paulo Cabuloso",
+    nomeUsuario : "popo",
+    senhaUsuario: "123456"
+}
+
+let usuario3 = {
+    nomeCompleto : "Edulado Violao",
+    nomeUsuario : "dudu",
+    senhaUsuario: "123456,
+    
+addEventListener("click", (evt)=>{
+
+    if (evt.target.id == "btnSubmit") {
+        
+        const usuarioLogado = {
+            NomeUsuaraioLogado: imputUser.valeu
+            SenhaUsuaraioLogado: imputPass.valeu
+        }
+        
+    }
+
+
+    /*Criando uma intereção para vaidar a lista de objetos com o objeto de usuario validando */
+
+    
+            if(usuarioLogado.nomeUsuarioLogado == usuario.nomeUsuario && usuarioLogado.senhaUsuarioLogado == usuario.senhaUsuario){
+                msgStatus.setAttribute("style","color:#00ff00");
+                msgStatus.innerHTML = `<span><strong>O usuário ${usuario.nomeCompleto} realizou o login com SUCESSO!!</strong></span>`
+            }
+
+        });
+
+    }
+});
+
+
+
